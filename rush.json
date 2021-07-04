@@ -363,10 +363,6 @@
     {
       "packageName": "my-miner",
       "projectFolder": "apps/my-miner"
-    },
-    {
-      "packageName": "@shared/components",
-      "projectFolder": "libs/components"
     }
     // {
     //   /**
