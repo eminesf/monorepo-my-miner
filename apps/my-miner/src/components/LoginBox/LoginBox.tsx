@@ -12,8 +12,8 @@ export const LoginBox = () => {
                         <Image src="/logo.png" alt="logo" width={120} height={80} />
                     </div>
                     <div className=" flex flex-col w-full gap-y-1 mt-2 md:mt-10">
-                        <Input type={'text'} />
-                        <Input type={'password'} />
+                        <Input type={'text'} placeHolder={'Digite seu usuário'}/>
+                        <Input type={'password'} placeHolder={'Digite sua senha'} />
                     </div>
                     <div className="flex flex-col text-center mt-1">
                         <Button textButton={'Login'} />

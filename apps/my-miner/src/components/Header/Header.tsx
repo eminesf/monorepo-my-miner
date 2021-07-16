@@ -1,6 +1,8 @@
 import Image from 'next/image'
 
 import { Button } from '../Button/Button'
+import { Input } from '../Input/Input'
+
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -18,7 +20,7 @@ export const Header = () => {
                     <Image src="/logo.png" alt="logo" width={60} height={40} />
                 </div>
                 <div className="flex gap-x-2 flex-1 h-full items-center">
-                    <input type="text" placeholder="buscar por miner" className="border rounded-lg w-full px-5 h-full" />
+                    <Input type={'text'} placeHolder={'Pesquisar wallet'}/>
                     <div className="hidden md:flex w-32 h-full">
                         <Button textButton={'Buscar'} />
                     </div>
