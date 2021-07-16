@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors: {
         "blue-button": "#3EC6FF"
-      }
+      },
+      spacing: {
+        '450px': '450px'
+      },
     },
   },
   variants: {
